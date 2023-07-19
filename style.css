@@ -259,7 +259,49 @@ padding-left: 10px;
     left: 550px;
     bottom: 200px;
 }
+/* game button container section */
+.game-button-row-1{
+ display: flex;
+ gap: 13px;
+ align-items: center;
+ justify-content: center;
+ border-radius: 50px;
+background: #FFF;
+border: none;
+padding: 0px 13px;
 
+}
+.game-button-img img{
+    width: 40px;
+}
+.game-button-title{
+    color: #0B0223;
+font-size: 15px;
+font-weight: 600;
+}
+.game-row-1{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    margin: 0px 110px;
+}
+.game-row-2{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 35px 170px;
+
+}
+.game-button-container{
+    padding: 20px;
+    margin-top: -130px;
+}
+
+.game-button-row-1:hover{
+    border: 2px solid pink;
+    
+}
+.game-button-row-1:hover .game-button-title{
+    color: palevioletred;
+}
 
 
 
