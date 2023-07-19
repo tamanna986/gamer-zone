@@ -1,0 +1,99 @@
+
+body{
+
+   padding: 0px;
+   margin: 0px;
+}
+/* navbar style */
+/* shared style  */
+.navbar,
+ nav,
+.nav-identity,
+ nav ul,
+ .banner
+{
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    align-items: center;
+}
+nav {
+    gap: 13px;
+ 
+}
+.nav-img img{
+    width: 70px;
+}
+nav li{
+    list-style: none;
+}
+nav a{
+    text-decoration: none;
+    color: #3C354F;
+text-align: center;
+font-family: Work Sans;
+font-size: 17px;
+font-weight: 500;
+}
+.nav-icon{
+    border-radius: 5px;
+background: rgba(11, 2, 35, 0.10);
+padding: 10px;
+}
+.navbar{
+    margin: 10px;
+}
+.pink-style{
+    color: rgb(252, 65, 180);
+}
+/* banner style */
+.banner-img img{
+    width: 500px;
+}
+
+
+
+
+
+
+/* responsive for mobile */
+/* navbar  */
+@media screen and (max-width:576px) {
+    .navbar,
+ nav,
+ .menue
+
+{
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.menue li{
+    padding-top: 20px;
+}
+.menue{
+    padding-right:38px ;
+}
+
+}
+
+
+
+
+
+
+
+
+/* responsive for tab */
+/* navbar style */
+@media screen and (man-width:577px) and (max-width:992){
+    .navbar
+    {
+        gap: 0px;
+        
+        
+    }
+
+}
