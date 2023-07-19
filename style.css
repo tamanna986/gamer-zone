@@ -302,8 +302,42 @@ font-weight: 600;
 .game-button-row-1:hover .game-button-title{
     color: palevioletred;
 }
+/* footer style */
+.footer{
+    background-color:#0B0223;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+.footer-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    
+}
+.color-white, .footer-logo h5{
+    color: #FFF;
+}
+.footer-logo img{
+    width: 30px;
+}
+.footer-terms{
+    color: rgba(255, 255, 255, 0.60);
+text-align: center;
+font-size: 12px;
 
-
+font-weight: 500;
+padding: 16px 36px;
+}
+.copyright{
+    color: rgba(255, 255, 255, 0.60);
+text-align: center;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+padding-bottom: 40px;
+}
 
 /* responsive for mobile */
 /* navbar  */
@@ -317,6 +351,7 @@ font-weight: 600;
         align-items: center;
         justify-content: center;
         text-align: center;
+        
     }
 
     .menue li {
@@ -418,25 +453,72 @@ font-weight: 600;
     }
     /* play instanlty section style */
     .img-relative-2{
-        width: 130px;
+        width: 120px;
         position: relative;
-        left: 260px;
-        bottom: 100px;
+        left: 220px;
+        bottom: 90px;
+        padding-right: -40px;
     }
     .img-relative{
         width: 67%;
-        padding-left: 50px;
+        padding-left: 30px;
     }
     .play-games{
         width: 390px;
         height: 150px;
-        margin-left: 20px;
+        margin-left: 0px;
         margin-top: -50px;
         
     }
     .position{
         text-align: center;
     }
+    .play-instantly{
+        width: 80%;
+    }
+    /* button gfame styles */
+    .game-row-1
+    {
+        grid-template-columns: repeat(2,1fr);
+        margin: 50px 0px 10px 0px;
+    
+    }
+    .game-row-2
+    {
+        grid-template-columns: repeat(2,1fr);
+        margin: 0px 0px;
+        
+    
+    }
+    .game-button-row-1{
+       
+        justify-content: space-around;
+        
+       
+       }
+       .footer-detail{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 0px;
+        margin: 10px 70px;
+       }
+       .footer-detail-2{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 15px;
+        margin: 10px 40px 20px 90px;
+        
+       }
+       .footer-detail-3{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 15px;
+        margin: 10px 40px 20px 30px;
+        
+       }
+       .copyright-flex{
+        margin: 10px 20px 20px 150px;
+       }
 
 
 }
